@@ -10,11 +10,9 @@ body {
 
 /* https://stackoverflow.com/a/34084294/3546560 */
 .centering {
-	position: absolute;
-	top: 50%;
-	left: 50%;
+	position: relative;
 	text-align: center;
-	transform: translate(-50%, -50%);
+	padding: 0 25% 0 25%;
 }
 
 footer ul {
